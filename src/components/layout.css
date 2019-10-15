@@ -21,7 +21,9 @@ svg {
   display: inline-block;
   vertical-align: middle;
   position: absolute;
-  bottom: 2%; }
+  bottom: 2%;
+  width: 78vw;
+  height: 40vw; }
 
 /*#here is all keyframes*/
 .page-header {
