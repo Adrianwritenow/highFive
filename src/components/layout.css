@@ -1,6 +1,6 @@
 @media only screen and (max-width: 425px) {
   body {
-    background-image: linear-gradient(to right, #750b0b1c 5%, black 95%); }
+    background-image: linear-gradient(to right, #750b0b1c, black); }
 
   .page-header:after {
     opacity: 0.6; } }
