@@ -3,7 +3,7 @@
     background-image: linear-gradient(to right, #750b0b1c 5%, black 95%); }
 
   .page-header:after {
-    opacity: 0.12; } }
+    opacity: 0.6; } }
 body {
   background-color: #000;
   background-image: linear-gradient(to right, #d62f2f1c 20%, black 80%); }
