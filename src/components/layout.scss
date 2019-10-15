@@ -2,6 +2,9 @@
 body {
     background-color: #000;
 }
+svg{
+  display: none;
+}
 .intro__logotype {
         /* -webkit-animation:c 2s infinite steps(2) alternate-reverse; */animation:c 2s infinite steps(2) alternate-reverse;
     }
@@ -9,13 +12,18 @@ body {
     color: #fe0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
   }
 .logotype {
     display: inline-block;
-    width: 100%;
-    height: 10.8rem;
     vertical-align: middle;
+    position: absolute;
+    bottom: -5%;
+        left: -10%;
 }
+
 
 /*#here is all keyframes*/
 

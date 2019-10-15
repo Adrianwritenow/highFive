@@ -1,11 +1,11 @@
 import React from "react"
 import "../components/layout.css"
 
-
+// viewBox="0 0 194 197"
 const IndexPage = () => (
 <div className="page-header">
-  <svg>
-    <symbol viewBox="0 0 194 197" id="shredr-logotype">
+  <svg viewBox="0 0 124 127">
+    <symbol viewBox="0 0 470 470" id="shredr-logotype">
        <path d="M 146.999995112419,1.99999976158142
       	C 154.633601903915,1.86942005157471 162.365085959435,2.12763237953186 166.999998569489,5.00000500679016
       	C 167.333301663399,5.66659688949585 167.666711688042,6.33340167999268 168.000014781952,7.00000476837158
