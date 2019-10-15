@@ -1,6 +1,6 @@
 body {
   background-color: #000;
-  background-image: linear-gradient(45deg, #ab101000, black); }
+  background-image: linear-gradient(to right, #ab101021, black); }
 
 svg {
   display: none; }
@@ -26,7 +26,6 @@ svg {
 /*#here is all keyframes*/
 .page-header {
   height: 100vh;
-  background-image: linear-gradient(45deg, #ab101036, black);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
