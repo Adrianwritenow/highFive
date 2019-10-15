@@ -1,5 +1,6 @@
 body {
-  background-color: #000; }
+  background-color: #000;
+  background-image: linear-gradient(45deg, #ab101036, black); }
 
 svg {
   display: none; }
@@ -9,24 +10,23 @@ svg {
   animation: c 2s infinite steps(2) alternate-reverse; }
 
 .intro__logotype {
-  color: #fe0;
+  color: #ff0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   position: relative;
   width: 100vw;
-  height: 85vh; }
+  height: 100vh; }
 
 .logotype {
   display: inline-block;
   vertical-align: middle;
   position: absolute;
-  bottom: -50px;
-  left: -50px; }
+  bottom: 5%; }
 
 /*#here is all keyframes*/
 .page-header {
   height: 100vh;
-  background-color: black;
+  background-image: linear-gradient(45deg, #ab101036, black);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -35,11 +35,10 @@ svg {
     background-image: url("https://thumbs.dreamstime.com/b/still-dark-black-paper-texture-background-clearly-detailed-natural-grain-noise-texture-effect-still-dark-black-paper-texture-115317202.jpg");
     content: "";
     height: 300%;
-    left: -50%;
     opacity: 0.22;
     position: fixed;
     top: -110%;
-    width: 300%; }
+    width: 150%; }
 
 @keyframes grain {
   0%,100% {
@@ -64,257 +63,131 @@ svg {
     transform: translate(-10%, 10%); } }
 @-webkit-keyframes c {
   0% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
+    text-shadow: 0 0 rgba(255, 23, 245, 0.85);
     -webkit-transform: translate(0) skewX(1deg);
     transform: translate(0) skewX(1deg);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 23, 245, 0.65));
+    filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 23, 245, 0.65)); }
   5% {
-    text-shadow: 4px 1px rgba(0, 128, 255, 0.85);
+    text-shadow: 4px 1px rgba(0, 255, 254, 0.85);
     -webkit-transform: translate(2px);
     transform: translate(2px);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(-2px 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(-2px 0 rgba(255, 0, 0, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(-2px 0 rgba(255, 23, 245, 0.65));
+    filter: brightness(100%) hue-rotate(0) drop-shadow(-2px 0 rgba(255, 23, 245, 0.65)); }
   10% {
-    text-shadow: -2px -3px rgba(0, 128, 255, 0.85);
+    text-shadow: -2px -3px rgba(0, 255, 254, 0.85);
     -webkit-transform: translate(1px, 2px);
     transform: translate(1px, 2px);
-    -webkit-filter: brightness(80%) hue-rotate(90deg) drop-shadow(4px 2px rgba(255, 0, 0, 0.65));
-    filter: brightness(80%) hue-rotate(90deg) drop-shadow(4px 2px rgba(255, 0, 0, 0.65)); }
+    -webkit-filter: brightness(80%) hue-rotate(90deg) drop-shadow(4px 2px rgba(255, 23, 245, 0.65));
+    filter: brightness(80%) hue-rotate(90deg) drop-shadow(4px 2px rgba(255, 23, 245, 0.65)); }
   15% {
-    text-shadow: 3px 1px rgba(0, 255, 0, 0.85);
+    text-shadow: 3px 1px rgba(255, 255, 255, 0.85);
     -webkit-transform: translate(-2px) skewX(2deg);
     transform: translate(-2px) skewX(2deg);
-    -webkit-filter: brightness(80%) hue-rotate(90deg) drop-shadow(0 -2px rgba(255, 0, 0, 0.65));
-    filter: brightness(80%) hue-rotate(90deg) drop-shadow(0 -2px rgba(255, 0, 0, 0.65)); }
+    -webkit-filter: brightness(80%) hue-rotate(90deg) drop-shadow(0 -2px rgba(255, 23, 245, 0.65));
+    filter: brightness(80%) hue-rotate(90deg) drop-shadow(0 -2px rgba(255, 23, 245, 0.65)); }
   20% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
+    text-shadow: 0 0 rgba(255, 23, 245, 0.85);
     -webkit-transform: translate(-1px) skewX(-1deg);
     transform: translate(-1px) skewX(-1deg);
-    -webkit-filter: brightness(100%) hue-rotate(180deg) drop-shadow(0 -1px rgba(0, 255, 0, 0.65));
-    filter: brightness(100%) hue-rotate(180deg) drop-shadow(0 -1px rgba(0, 255, 0, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(180deg) drop-shadow(0 -1px rgba(0, 255, 254, 0.65));
+    filter: brightness(100%) hue-rotate(180deg) drop-shadow(0 -1px rgba(0, 255, 254, 0.65)); }
   25% {
-    text-shadow: 4px 0 rgba(255, 0, 255, 0.85);
+    text-shadow: 4px 0 rgba(255, 255, 255, 0.85);
     -webkit-transform: translateY(-4px) scale(0.99);
     transform: translateY(-4px) scale(0.99);
-    -webkit-filter: brightness(120%) hue-rotate(120deg) drop-shadow(3px 0 rgba(255, 255, 0, 0.65));
-    filter: brightness(120%) hue-rotate(120deg) drop-shadow(3px 0 rgba(255, 255, 0, 0.65)); }
+    -webkit-filter: brightness(120%) hue-rotate(120deg) drop-shadow(3px 0 rgba(255, 253, 86, 0.85));
+    filter: brightness(120%) hue-rotate(120deg) drop-shadow(3px 0 rgba(255, 253, 86, 0.85)); }
   30% {
-    text-shadow: -2px 4px rgba(255, 0, 0, 0.85);
+    text-shadow: -2px 4px rgba(255, 23, 245, 0.85);
     -webkit-transform: translate(1px);
     transform: translate(1px);
-    -webkit-filter: brightness(100%) hue-rotate(160deg) drop-shadow(-1px 1px rgba(0, 255, 255, 0.65));
-    filter: brightness(100%) hue-rotate(160deg) drop-shadow(-1px 1px rgba(0, 255, 255, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(160deg) drop-shadow(-1px 1px rgba(0, 255, 254, 0.65));
+    filter: brightness(100%) hue-rotate(160deg) drop-shadow(-1px 1px rgba(0, 255, 254, 0.65)); }
   35% {
-    text-shadow: 3px 0 rgba(255, 128, 0, 0.85);
+    text-shadow: 3px 0 rgba(255, 255, 255, 0.85);
     -webkit-transform: translateY(-2px);
     transform: translateY(-2px);
-    -webkit-filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -5px rgba(0, 255, 0, 0.65));
-    filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -5px rgba(0, 255, 0, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -5px rgba(0, 255, 254, 0.65));
+    filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -5px rgba(0, 255, 254, 0.65)); }
   40% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
+    text-shadow: 0 0 rgba(255, 23, 245, 0.85);
     -webkit-transform: translate(2px);
     transform: translate(2px);
     -webkit-filter: brightness(120%) hue-rotate(0) drop-shadow(-3px 0 rgba(255, 0, 255, 0.65));
     filter: brightness(120%) hue-rotate(0) drop-shadow(-3px 0 rgba(255, 0, 255, 0.65)); }
   45% {
-    text-shadow: -4px 2px rgba(0, 255, 0, 0.85);
+    text-shadow: -4px 2px rgba(255, 255, 255, 0.85);
     -webkit-transform: translate(-1px);
     transform: translate(-1px);
     -webkit-filter: brightness(100%) hue-rotate(-20deg) drop-shadow(0 0 rgba(255, 0, 255, 0.65));
     filter: brightness(100%) hue-rotate(-20deg) drop-shadow(0 0 rgba(255, 0, 255, 0.65)); }
   50% {
-    text-shadow: 2px 0 rgba(255, 255, 0, 0.85);
+    text-shadow: 2px 0 rgba(255, 255, 255, 0.85);
     -webkit-transform: translate(0) skewX(1deg);
     transform: translate(0) skewX(1deg);
-    -webkit-filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -1px rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -1px rgba(255, 0, 0, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -1px rgba(255, 23, 245, 0.65));
+    filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -1px rgba(255, 23, 245, 0.65)); }
   55% {
-    text-shadow: 0 1px rgba(0, 255, 0, 0.85);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.85);
     -webkit-transform: translate(2px) skewX(-1deg);
     transform: translate(2px) skewX(-1deg);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(2px 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(2px 0 rgba(255, 0, 0, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(2px 0 rgba(255, 23, 245, 0.65));
+    filter: brightness(100%) hue-rotate(0) drop-shadow(2px 0 rgba(255, 23, 245, 0.65)); }
   60% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
+    text-shadow: 0 0 rgba(255, 23, 245, 0.85);
     -webkit-transform: translate(-1px);
     transform: translate(-1px);
-    -webkit-filter: brightness(80%) hue-rotate(-20deg) drop-shadow(-2px 0 rgba(255, 255, 0, 0.65));
-    filter: brightness(80%) hue-rotate(-20deg) drop-shadow(-2px 0 rgba(255, 255, 0, 0.65)); }
+    -webkit-filter: brightness(80%) hue-rotate(-20deg) drop-shadow(-2px 0 rgba(255, 253, 86, 0.85));
+    filter: brightness(80%) hue-rotate(-20deg) drop-shadow(-2px 0 rgba(255, 253, 86, 0.85)); }
   65% {
-    text-shadow: -4px 0 rgba(128, 0, 255, 0.85);
+    text-shadow: -4px 0 rgba(0, 255, 254, 0.85);
     -webkit-transform: translate(1px, 1px);
     transform: translate(1px, 1px);
-    -webkit-filter: brightness(100%) hue-rotate(400deg) drop-shadow(2px -5px rgba(255, 255, 0, 0.65));
-    filter: brightness(100%) hue-rotate(400deg) drop-shadow(2px -5px rgba(255, 255, 0, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(400deg) drop-shadow(2px -5px rgba(255, 253, 86, 0.85));
+    filter: brightness(100%) hue-rotate(400deg) drop-shadow(2px -5px rgba(255, 253, 86, 0.85)); }
   70% {
-    text-shadow: 0 -2px rgba(255, 0, 0, 0.85);
+    text-shadow: 0 -2px rgba(255, 23, 245, 0.85);
     -webkit-transform: translate(0) skewX(1deg);
     transform: translate(0) skewX(1deg);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 23, 245, 0.65));
+    filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 23, 245, 0.65)); }
   75% {
-    text-shadow: -1px 1px rgba(0, 255, 128, 0.85);
+    text-shadow: -1px 1px rgba(255, 255, 255, 0.85);
     -webkit-transform: translate(-2px) skewX(-1deg);
     transform: translate(-2px) skewX(-1deg);
-    -webkit-filter: brightness(80%) hue-rotate(20deg) drop-shadow(1px 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(80%) hue-rotate(20deg) drop-shadow(1px 0 rgba(255, 0, 0, 0.65)); }
+    -webkit-filter: brightness(80%) hue-rotate(20deg) drop-shadow(1px 0 rgba(255, 23, 245, 0.65));
+    filter: brightness(80%) hue-rotate(20deg) drop-shadow(1px 0 rgba(255, 23, 245, 0.65));
+    color: white; }
   80% {
-    text-shadow: 0 3px rgba(255, 0, 0, 0.85);
+    text-shadow: 0 3px rgba(255, 23, 245, 0.85);
     -webkit-transform: translate(1px);
     transform: translate(1px);
-    -webkit-filter: brightness(120%) hue-rotate(0) drop-shadow(-2px 0 rgba(0, 255, 0, 0.65));
-    filter: brightness(120%) hue-rotate(0) drop-shadow(-2px 0 rgba(0, 255, 0, 0.65)); }
+    -webkit-filter: brightness(120%) hue-rotate(0) drop-shadow(-2px 0 rgba(0, 255, 254, 0.65));
+    filter: brightness(120%) hue-rotate(0) drop-shadow(-2px 0 rgba(0, 255, 254, 0.65)); }
   85% {
-    text-shadow: 2px -2px rgba(0, 0, 255, 0.85);
+    text-shadow: 2px -2px rgba(0, 255, 254, 0.85);
     -webkit-transform: translate(4px, -1px);
     transform: translate(4px, -1px);
-    -webkit-filter: brightness(100%) hue-rotate(-40deg) drop-shadow(0 1px rgba(255, 255, 0, 0.65));
-    filter: brightness(100%) hue-rotate(-40deg) drop-shadow(0 1px rgba(255, 255, 0, 0.65)); }
+    -webkit-filter: brightness(100%) hue-rotate(-40deg) drop-shadow(0 1px rgba(255, 253, 86, 0.85));
+    filter: brightness(100%) hue-rotate(-40deg) drop-shadow(0 1px rgba(255, 253, 86, 0.85)); }
   90% {
-    text-shadow: 0 -2px rgba(0, 255, 0, 0.85);
+    text-shadow: 0 -2px rgba(255, 255, 255, 0.85);
     -webkit-transform: translate(0) scale(0.99);
     transform: translate(0) scale(0.99);
     -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(5px 0 rgba(255, 0, 255, 0.65));
     filter: brightness(100%) hue-rotate(0) drop-shadow(5px 0 rgba(255, 0, 255, 0.65)); }
   95% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
+    text-shadow: 0 0 rgba(255, 23, 245, 0.85);
     -webkit-transform: translate(-1px);
     transform: translate(-1px);
     -webkit-filter: brightness(90%) hue-rotate(20deg) drop-shadow(-1px 1px rgba(255, 0, 255, 0.65));
     filter: brightness(90%) hue-rotate(20deg) drop-shadow(-1px 1px rgba(255, 0, 255, 0.65)); }
   to {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
+    text-shadow: 0 0 rgba(255, 23, 245, 0.85);
     -webkit-transform: translate(0);
     transform: translate(0);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65)); } }
-@keyframes c {
-  0% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
-    -webkit-transform: translate(0) skewX(1deg);
-    transform: translate(0) skewX(1deg);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65)); }
-  5% {
-    text-shadow: 4px 1px rgba(0, 128, 255, 0.85);
-    -webkit-transform: translate(2px);
-    transform: translate(2px);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(-2px 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(-2px 0 rgba(255, 0, 0, 0.65)); }
-  10% {
-    text-shadow: -2px -3px rgba(0, 128, 255, 0.85);
-    -webkit-transform: translate(1px, 2px);
-    transform: translate(1px, 2px);
-    -webkit-filter: brightness(80%) hue-rotate(90deg) drop-shadow(4px 2px rgba(255, 0, 0, 0.65));
-    filter: brightness(80%) hue-rotate(90deg) drop-shadow(4px 2px rgba(255, 0, 0, 0.65)); }
-  15% {
-    text-shadow: 3px 1px rgba(0, 255, 0, 0.85);
-    -webkit-transform: translate(-2px) skewX(2deg);
-    transform: translate(-2px) skewX(2deg);
-    -webkit-filter: brightness(80%) hue-rotate(90deg) drop-shadow(0 -2px rgba(255, 0, 0, 0.65));
-    filter: brightness(80%) hue-rotate(90deg) drop-shadow(0 -2px rgba(255, 0, 0, 0.65)); }
-  20% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
-    -webkit-transform: translate(-1px) skewX(-1deg);
-    transform: translate(-1px) skewX(-1deg);
-    -webkit-filter: brightness(100%) hue-rotate(180deg) drop-shadow(0 -1px rgba(0, 255, 0, 0.65));
-    filter: brightness(100%) hue-rotate(180deg) drop-shadow(0 -1px rgba(0, 255, 0, 0.65)); }
-  25% {
-    text-shadow: 4px 0 rgba(255, 0, 255, 0.85);
-    -webkit-transform: translateY(-4px) scale(0.99);
-    transform: translateY(-4px) scale(0.99);
-    -webkit-filter: brightness(120%) hue-rotate(120deg) drop-shadow(3px 0 rgba(255, 255, 0, 0.65));
-    filter: brightness(120%) hue-rotate(120deg) drop-shadow(3px 0 rgba(255, 255, 0, 0.65)); }
-  30% {
-    text-shadow: -2px 4px rgba(255, 0, 0, 0.85);
-    -webkit-transform: translate(1px);
-    transform: translate(1px);
-    -webkit-filter: brightness(100%) hue-rotate(160deg) drop-shadow(-1px 1px rgba(0, 255, 255, 0.65));
-    filter: brightness(100%) hue-rotate(160deg) drop-shadow(-1px 1px rgba(0, 255, 255, 0.65)); }
-  35% {
-    text-shadow: 3px 0 rgba(255, 128, 0, 0.85);
-    -webkit-transform: translateY(-2px);
-    transform: translateY(-2px);
-    -webkit-filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -5px rgba(0, 255, 0, 0.65));
-    filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -5px rgba(0, 255, 0, 0.65)); }
-  40% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
-    -webkit-transform: translate(2px);
-    transform: translate(2px);
-    -webkit-filter: brightness(120%) hue-rotate(0) drop-shadow(-3px 0 rgba(255, 0, 255, 0.65));
-    filter: brightness(120%) hue-rotate(0) drop-shadow(-3px 0 rgba(255, 0, 255, 0.65)); }
-  45% {
-    text-shadow: -4px 2px rgba(0, 255, 0, 0.85);
-    -webkit-transform: translate(-1px);
-    transform: translate(-1px);
-    -webkit-filter: brightness(100%) hue-rotate(-20deg) drop-shadow(0 0 rgba(255, 0, 255, 0.65));
-    filter: brightness(100%) hue-rotate(-20deg) drop-shadow(0 0 rgba(255, 0, 255, 0.65)); }
-  50% {
-    text-shadow: 2px 0 rgba(255, 255, 0, 0.85);
-    -webkit-transform: translate(0) skewX(1deg);
-    transform: translate(0) skewX(1deg);
-    -webkit-filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -1px rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(20deg) drop-shadow(0 -1px rgba(255, 0, 0, 0.65)); }
-  55% {
-    text-shadow: 0 1px rgba(0, 255, 0, 0.85);
-    -webkit-transform: translate(2px) skewX(-1deg);
-    transform: translate(2px) skewX(-1deg);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(2px 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(2px 0 rgba(255, 0, 0, 0.65)); }
-  60% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
-    -webkit-transform: translate(-1px);
-    transform: translate(-1px);
-    -webkit-filter: brightness(80%) hue-rotate(-20deg) drop-shadow(-2px 0 rgba(255, 255, 0, 0.65));
-    filter: brightness(80%) hue-rotate(-20deg) drop-shadow(-2px 0 rgba(255, 255, 0, 0.65)); }
-  65% {
-    text-shadow: -4px 0 rgba(128, 0, 255, 0.85);
-    -webkit-transform: translate(1px, 1px);
-    transform: translate(1px, 1px);
-    -webkit-filter: brightness(100%) hue-rotate(400deg) drop-shadow(2px -5px rgba(255, 255, 0, 0.65));
-    filter: brightness(100%) hue-rotate(400deg) drop-shadow(2px -5px rgba(255, 255, 0, 0.65)); }
-  70% {
-    text-shadow: 0 -2px rgba(255, 0, 0, 0.85);
-    -webkit-transform: translate(0) skewX(1deg);
-    transform: translate(0) skewX(1deg);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65)); }
-  75% {
-    text-shadow: -1px 1px rgba(0, 255, 128, 0.85);
-    -webkit-transform: translate(-2px) skewX(-1deg);
-    transform: translate(-2px) skewX(-1deg);
-    -webkit-filter: brightness(80%) hue-rotate(20deg) drop-shadow(1px 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(80%) hue-rotate(20deg) drop-shadow(1px 0 rgba(255, 0, 0, 0.65)); }
-  80% {
-    text-shadow: 0 3px rgba(255, 0, 0, 0.85);
-    -webkit-transform: translate(1px);
-    transform: translate(1px);
-    -webkit-filter: brightness(120%) hue-rotate(0) drop-shadow(-2px 0 rgba(0, 255, 0, 0.65));
-    filter: brightness(120%) hue-rotate(0) drop-shadow(-2px 0 rgba(0, 255, 0, 0.65)); }
-  85% {
-    text-shadow: 2px -2px rgba(0, 0, 255, 0.85);
-    -webkit-transform: translate(4px, -1px);
-    transform: translate(4px, -1px);
-    -webkit-filter: brightness(100%) hue-rotate(-40deg) drop-shadow(0 1px rgba(255, 255, 0, 0.65));
-    filter: brightness(100%) hue-rotate(-40deg) drop-shadow(0 1px rgba(255, 255, 0, 0.65)); }
-  90% {
-    text-shadow: 0 -2px rgba(0, 255, 0, 0.85);
-    -webkit-transform: translate(0) scale(0.99);
-    transform: translate(0) scale(0.99);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(5px 0 rgba(255, 0, 255, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(5px 0 rgba(255, 0, 255, 0.65)); }
-  95% {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
-    -webkit-transform: translate(-1px);
-    transform: translate(-1px);
-    -webkit-filter: brightness(90%) hue-rotate(20deg) drop-shadow(-1px 1px rgba(255, 0, 255, 0.65));
-    filter: brightness(90%) hue-rotate(20deg) drop-shadow(-1px 1px rgba(255, 0, 255, 0.65)); }
-  to {
-    text-shadow: 0 0 rgba(255, 0, 0, 0.85);
-    -webkit-transform: translate(0);
-    transform: translate(0);
-    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65));
-    filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 0, 0, 0.65)); } }
+    -webkit-filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 23, 245, 0.65));
+    filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 23, 245, 0.65)); } }
 
 /*# sourceMappingURL=layout.css.map */
