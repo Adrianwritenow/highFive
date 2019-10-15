@@ -7,7 +7,21 @@ $yellow65:rgba(255, 253, 86, .85);
 $white85:rgba(255,255,255,.85);
 $white65:rgba(255,255,255,.65);
 
+@media only screen and (max-width: 425px) {
+  body {
+    background-image: linear-gradient(to right, #75151536 5%, black 95%);
+  }
+  .page-header {
 
+
+    &:after {
+
+      // left: -50%; */
+        opacity: 0.18;
+
+    }
+  }
+}
 body {
     background-color: #000;
     background-image: linear-gradient(to right, #ab101021, black);}
