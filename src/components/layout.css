@@ -1,12 +1,12 @@
 @media only screen and (max-width: 425px) {
   body {
-    background-image: linear-gradient(to right, #75151536 5%, black 95%); }
+    background-image: linear-gradient(to right, black 0%, #8c28281c 20%, black 80%); }
 
   .page-header:after {
-    opacity: 0.18; } }
+    opacity: 0.12; } }
 body {
   background-color: #000;
-  background-image: linear-gradient(to right, #ab101021, black); }
+  background-image: linear-gradient(to right, black 0%, #8c28281c 20%, black 80%); }
 
 svg {
   display: none; }
