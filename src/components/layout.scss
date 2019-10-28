@@ -30,11 +30,10 @@ svg{
     display: inline-block;
     vertical-align: middle;
     position: absolute;
-    bottom: 2%;
     width: 78vw;
     height:40vw;
-        // left: -10%;
-}
+    left: 30vw;
+    top: 20vh;}
 
 
 /*#here is all keyframes*/
@@ -272,6 +271,13 @@ svg{
 @media only screen and (max-width: 425px) {
   body {
     background-image: linear-gradient(to right, #750b0b1c 5%, black 95%);
+    overflow: hidden;
+}
+
+.logotype {
+  width: 100vw;
+height: 100vh;
+top:0vh;
 }
 
   .page-header {

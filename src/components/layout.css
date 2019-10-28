@@ -21,9 +21,10 @@ svg {
   display: inline-block;
   vertical-align: middle;
   position: absolute;
-  bottom: 2%;
   width: 78vw;
-  height: 40vw; }
+  height: 40vw;
+  left: 30vw;
+  top: 20vh; }
 
 /*#here is all keyframes*/
 .page-header {
@@ -192,7 +193,13 @@ svg {
     filter: brightness(100%) hue-rotate(0) drop-shadow(0 0 rgba(255, 23, 245, 0.65)); } }
 @media only screen and (max-width: 425px) {
   body {
-    background-image: linear-gradient(to right, #750b0b1c 5%, black 95%); }
+    background-image: linear-gradient(to right, #750b0b1c 5%, black 95%);
+    overflow: hidden; }
+
+  .logotype {
+    width: 100vw;
+    height: 100vh;
+    top: 0vh; }
 
   .page-header:after {
     opacity: 0.18; } }
