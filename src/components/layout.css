@@ -32,7 +32,8 @@ svg {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  overflow: hidden; }
   .page-header:after {
     animation: grain 1s steps(10) infinite;
     background-image: url("https://thumbs.dreamstime.com/b/still-dark-black-paper-texture-background-clearly-detailed-natural-grain-noise-texture-effect-still-dark-black-paper-texture-115317202.jpg");

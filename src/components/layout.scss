@@ -44,6 +44,7 @@ svg{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 
   &:after {
     animation: grain 1s steps(10) infinite;
