@@ -41,6 +41,7 @@ svg {
     height: 300%;
     opacity: 0.22;
     position: fixed;
+    overflow: hidden;
     top: -110%;
     width: 150%; }
 
